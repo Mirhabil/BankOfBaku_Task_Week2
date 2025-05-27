@@ -1,16 +1,33 @@
-# bankofbaku_task_week2
+# 🎓 Dart Mini Project: Student Analyzer
 
-A new Flutter project.
+The **Student Analyzer** is a mini Dart project that uses **Object-Oriented Programming (OOP)** to model student data and analyze their academic performance. It calculates averages, assigns grades, and provides insights based on student scores.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ `Student` class with name, scores, and ID
+- ✅ `StudentAnalyzer` to calculate:
+  - Average score
+  - Grade based on thresholds
+  - Highest and lowest scoring students
+- ✅ Console simulation of student analysis
+- ✅ Clean and testable OOP structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Pure Dart (CLI application)
+
+---
+
+## 🧩 Project Structure
+
+lib/
+├── models/
+│ └── student.dart # Student class with scores and methods
+├── services/
+│ └── student_analyzer.dart # Analyzer logic for processing students
+└── main.dart # Simulation and output display
