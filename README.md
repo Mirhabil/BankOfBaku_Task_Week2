@@ -1,16 +1,34 @@
-# bankofbaku_task_week2
+# 🚗 Dart Mini Project: Vehicle Management System
 
-A new Flutter project.
+This mini project demonstrates a **Vehicle Management System** implemented using **Object-Oriented Programming (OOP)** in Dart. It simulates how different types of vehicles can be represented and managed through class hierarchies and abstraction.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Base `Vehicle` class with common properties
+- ✅ Subclasses like `Car`, `Bike`, and `Truck`
+- ✅ Polymorphic behavior through overridden methods
+- ✅ `VehicleManager` class to add, list, and manage vehicles
+- ✅ Clean object-oriented structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Console-based Dart application
+
+---
+
+## 🧩 Project Structure
+
+lib/
+├── models/
+│ ├── vehicle.dart # Abstract base class
+│ ├── car.dart # Car subclass
+│ ├── bike.dart # Bike subclass
+│ └── truck.dart # Truck subclass
+├── services/
+│ └── vehicle_manager.dart # Vehicle management logic
+└── main.dart # Entry point and simulation
