@@ -1,16 +1,32 @@
-# bankofbaku_task_week2
+# 🔐 Dart Mini Project: Role-Based Access Control (RBAC)
 
-A new Flutter project.
+This Dart mini project demonstrates a simple and scalable **Role-Based Access Control (RBAC)** system using **Object-Oriented Programming (OOP)**. It models users, roles, and permissions to simulate access control in a system.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ `User` class with assigned `Role`
+- ✅ `Role` class with permission sets
+- ✅ `AccessControl` to evaluate permission logic
+- ✅ Simulates real-world access control logic
+- ✅ Fully modular and testable OOP structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Pure Dart (CLI-based)
+
+---
+
+## 🧩 Project Structure
+
+lib/
+├── models/
+│ ├── user.dart # User class with role assignment
+│ └── role.dart # Role with permissions
+├── services/
+│ └── access_control.dart # Permission checking logic
+└── main.dart # Entry point with sample simulation
