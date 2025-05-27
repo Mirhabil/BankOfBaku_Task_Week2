@@ -1,16 +1,34 @@
-# bankofbaku_task_week2
+# 📐 Dart Mini Project: Shape Area Calculator
 
-A new Flutter project.
+This is a simple **Shape Area Calculator** written in **Dart** using **Object-Oriented Programming (OOP)** concepts. It lets you calculate the area of various geometric shapes using polymorphism and inheritance.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Abstract `Shape` class with `calculateArea()` method
+- ✅ Concrete classes: `Circle`, `Rectangle`, and `Triangle`
+- ✅ Polymorphic method overriding for area calculation
+- ✅ `ShapeManager` to manage and display shapes
+- ✅ Console-based simulation for shape management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Pure Dart (console)
+
+---
+
+## 🧩 Project Structure
+
+lib/
+├── models/
+│ ├── shape.dart # Abstract base class
+│ ├── circle.dart # Circle with radius
+│ ├── rectangle.dart # Rectangle with width & height
+│ └── triangle.dart # Triangle with base & height
+├── services/
+│ └── shape_manager.dart # Handles shape storage and display
+└── main.dart # Entry point with simulation
