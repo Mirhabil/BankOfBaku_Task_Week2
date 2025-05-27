@@ -23,3 +23,10 @@ This mini project simulates a **User Login System** using core **Object-Oriented
 
 ## 🧩 Project Structure
 
+lib/
+├── models/
+│ └── user.dart # User class with encapsulated data
+├── services/
+│ └── auth_service.dart # AuthService to handle login logic
+└── main.dart # Entry point and simulation logic
+
