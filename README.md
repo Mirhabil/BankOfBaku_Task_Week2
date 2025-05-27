@@ -1,16 +1,34 @@
-# bankofbaku_task_week2
+# 📚 Dart Mini Project: Library Book Manager
 
-A new Flutter project.
+This is a simple **Library Book Manager** system written in Dart, built using **Object-Oriented Programming (OOP)**. It simulates managing a library's collection of books including adding, listing, searching, and removing books.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ `Book` class with attributes like title, author, ISBN, and year
+- ✅ `LibraryManager` class to:
+  - Add new books
+  - List all books
+  - Search books by title or author
+  - Remove books by ISBN
+- ✅ Console output with formatted book details
+- ✅ Follows clean OOP architecture and separation of concerns
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Pure Dart CLI application
+
+---
+
+## 🧩 Project Structure
+
+lib/
+├── models/
+│ └── book.dart # Book model with constructors and methods
+├── services/
+│ └── library_manager.dart # Logic for managing book collection
+└── main.dart # Entry point for simulation
