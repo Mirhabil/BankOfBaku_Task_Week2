@@ -1,16 +1,25 @@
-# bankofbaku_task_week2
+# 🧑‍💻 Dart Mini Project: User Login Simulation
 
-A new Flutter project.
+This mini project simulates a **User Login System** using core **Object-Oriented Programming (OOP)** principles in Dart. It's designed for educational purposes to practice and demonstrate Dart's class structures, encapsulation, abstraction, and logic handling.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ User class with private credentials
+- ✅ Login authentication via `AuthService`
+- ✅ Basic simulation of user input/output
+- ✅ Clean and modular OOP-based code
+- ✅ Simple CLI-based interface
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Pure Dart console application
+
+---
+
+## 🧩 Project Structure
+
