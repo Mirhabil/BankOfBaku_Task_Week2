@@ -1,16 +1,33 @@
-# bankofbaku_task_week2
+# 🧑‍💼 Dart Mini Project: Employee Management System
 
-A new Flutter project.
+This project is a simple **Employee Management System** built using **Object-Oriented Programming (OOP)** in Dart. It demonstrates the use of classes, inheritance, abstraction, and polymorphism to model real-world employee data and behaviors.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Abstract `Employee` class with common attributes
+- ✅ `Manager` and `Developer` subclasses with unique properties
+- ✅ `EmployeeManager` class to manage employee operations
+- ✅ Polymorphic display of employee information
+- ✅ Clean architecture with separation of concerns
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Technologies Used
+
+- **Dart** (>=2.12)
+- Console-based Dart application
+
+---
+
+## 🧩 Project Structure
+
+lib/
+├── models/
+│ ├── employee.dart # Abstract base class
+│ ├── manager.dart # Manager subclass
+│ └── developer.dart # Developer subclass
+├── services/
+│ └── employee_manager.dart # Handles adding/displaying employees
+└── main.dart # Entry point and simulation
