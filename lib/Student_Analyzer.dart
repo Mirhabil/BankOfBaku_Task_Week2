@@ -1,13 +1,23 @@
+import 'dart:math';
+
 void main() {
+
+  Random random=Random();
+  for (var student in studentsList) {
+    student.courseNames = courseNames.toList()[random.nextInt(courseNames.length)];
+  }
+
   var list = studentsList.where((student) => student.grade > 70);
+
   list.toList().forEach((student) {
-    print(student.name);
+    print("${student.name} -> ${student.courseNames}");
   });
 }
 
 class Student {
   String name;
   double grade;
+  String? courseNames;
 
   Student(this.name, this.grade);
 }
