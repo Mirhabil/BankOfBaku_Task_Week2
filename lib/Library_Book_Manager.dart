@@ -2,6 +2,19 @@ void main(){
 
   EBook eBook=EBook("EBook_Title", "EBook_Author", 2000);
   AudioBook audioBook=AudioBook("AudioBook_Title", "AudioBook_author", 2000);
+
+  NamedConstructor a=NamedConstructor.Constructor1();
+  //NamedConstructor b=NamedConstructor.Constructor2();
+
+
+  const ConstConstructor c=ConstConstructor("String");
+  const ConstConstructor d=ConstConstructor("String");
+
+
+  if(c.hashCode==d.hashCode){
+    print("True");
+  }else print("Fale");
+
 }
 
 class Book{
@@ -61,6 +74,43 @@ mixin Logger{
 
   }
 }
+
+// Constructors
+
+class DefaultConstructor{
+
+  // Default constructor
+  late String a;
+  late int b;
+}
+
+class NamedConstructor {
+  late int a;
+  late int b;
+  late int c;
+
+  NamedConstructor(this.a,this.b);
+
+  NamedConstructor.Constructor1():a=2,b=4;
+
+  NamedConstructor.Constructor2(this.a):b=a*2;
+
+  //Redirection
+  NamedConstructor.RedirectedContructor():this(2,4);
+
+  NamedConstructor.NewConstructor(String a);
+}
+
+// Const constructor
+class ConstConstructor{
+
+  final String a;
+
+  const ConstConstructor(this.a);
+}
+
+
+
 
 
 
